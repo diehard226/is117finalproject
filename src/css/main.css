@@ -88,7 +88,86 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ul {
+      margin: 0px;
+      padding: 0px;
+   }
+li{
+   display:inline;
+   }
+body {
+       border:2px solid #000000;
+       margin: 5px;
+     }
+    
+}
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner {
+  color: #ffffff;
+  clear: both;
+  height: 400px;
+  width: auto;
+  background-image: url("../img/keyboard.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+#banner h1 {
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  
+  background-color:red;
+  height: 70px;
+  line-height: 70px;
+}
 
+#menu {
+  background-color:blue;
+  text-align: center;
+  width: 941px;
+  height: 70px;
+  float: left;
+  border:5px solid #000000;
+  border-color: black;
+ 
+}
+#menu a {
+  color: white;
+}
+
+#logo {
+
+  background-color: green;
+  
+  border:5px solid #000000;
+  width: 367px;
+  height: 70px;
+  float: left;
+}
+#logo h1 {
+  padding: 0px;
+  margin: 0px;
+}
+#feature1, #feature2, #feature3 {
+  border:2px solid #000000;
+  float: left;
+  width: 440px;
+  height: 240px;
+  text-align:center;
+
+}
+#banner img {
+  width: 100%;
+}
+#footer {
+  background-color: orange;
+  clear: both;
+}
 
 
 
