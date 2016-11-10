@@ -87,11 +87,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body{
+background-image: url("../img/wpbck.jpg");
+}
 
 
 
 #wrapper {
+  
   width: 960px;
   margin-left: auto;
   margin-right: auto;
@@ -111,6 +114,7 @@ textarea {
   padding: 0px;
 }
 #banner p{
+
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   position: absolute;
@@ -122,9 +126,29 @@ textarea {
 
 #content{
 height: auto;
+background-color:white;
 border: 1px solid #000000;
 }
+#ccontent{
+text-align:center;
+background-color:white;
+border: 1px solid #000000;
+height: 400px;
+}
+#acontent{
+text-align:center;
+background-color:white;
+border: 1px solid #000000;
+height: 400px;
+}
+#ccontent table{
+margin: auto;
+left: auto;
+right: auto;
+} 
+
 #infograph{
+
 }
 #header {
   
@@ -168,19 +192,20 @@ display:inline;
   margin: 0px;
 }
 #feature1, #feature2, #feature3 {
+  color:white;
   border:1px solid #000000;
   float: left;
   width: 318px;
   height: 280px;
   text-align:center;
-
+}
+#feature3 a{
+color:white;
 }
 #banner img {
   width: 100%;
 }
-#content h2{
-text-align: center;
-}
+
 #footer {
   width:960px;
   text-align: center;
