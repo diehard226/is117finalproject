@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>How it Works Page</title>
+        <title>History of the ARPANET</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,50 +20,33 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-                
-    <div id ='wrapper'>
-      <div id ="header">
-        <div id="logo">
-       <img src="img/logo.jpg" alt="Logo"style= "width:367px; height:70px;" />
-        </div>  
-        
-        <div id="menu">
-            <ul>
-               <li><a href='index.html'>Home</a>|</li> 
-               <li><a href='contact.html'>Contacts</a>|</li> 
-               <li><a href='howitwork.html'>How It Works</a>|</li> 
-               <li><a href='history.html'>History</a>|</li> 
-               <li><a href='about.html'>About Us</a>|</li> 
-            </ul>
-        </div> 
-      </div> 
-      
-      <img src= "img/infographflowchart.png">
-      
-  
-      
-        <div id="footer">
-        <p>Copyright &copy; VictorCC/AW93 vcc3@njit.edu/aw93@njit.edu</p>
+              
+        <div id='headerLinks'>
+          <h2 id= "headerLinks">
+	  	      <a href='index.html'>Home</a> |
+            <a href='contact.html'>Contacts</a> |
+            <a href='howitwork.html'>How It Works</a> |
+            <a href='history.html'>History</a> |
+            <a href='about.html'>About Us</a> |</div>	
 
-            <ul>
-               <li><a href='index.html'>Home</a>|</li> 
-               <li><a href='contact.html'>Contacts</a>|</li> 
-               <li><a href='howitwork.html'>How It Works</a>|</li> 
-               <li><a href='history.html'>History</a>|</li> 
-               <li><a href='about.html'>About Us</a>|</li> 
-            </ul>
-        </div> 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+<h2> Hello and welcome to the _____ Page!!!!!</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <div id="footer">
+        	<h2 id="footerAnchors">
+		      	<a href='index.html'>Home</a> |
+            <a href='contact.html'>Contacts</a> |
+            <a href='howitwork.html'>How It Works</a> |
+            <a href='history.html'>History</a> |
+            <a href='about.html'>About Us</a> |</div>	
+
 
 
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
