@@ -104,17 +104,18 @@ textarea {
   background-image: url("../img/keyboard.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
+  position: relative;
 }
 #banner h1 {
   margin: 0px;
   padding: 0px;
 }
 #banner p{
-font-family: "Times New Roman", Times, serif;
-font-size: 40px;
-position: absolute;
-right: 200px;
-bottom: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
 
 
 }
