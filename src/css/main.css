@@ -134,7 +134,7 @@ body {
 }
 #menu ul{
 margin: 0px;
-      padding: 0px;
+padding: 0px;
 }
 #menu li{
 display:inline;
@@ -175,6 +175,13 @@ display:inline;
 }
 #footer a{
 color:white;
+}
+#footer li{
+display:inline;
+}
+#footer ul{
+margin: 0px;
+padding: 0px;
 }
 
 
