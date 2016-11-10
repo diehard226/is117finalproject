@@ -90,11 +90,6 @@ textarea {
 
 
 
-body {   
-      
-     
-     }
-    
 
 #wrapper {
   width: 960px;
@@ -102,7 +97,7 @@ body {
   margin-right: auto;
 }
 #banner {
-  color: #ffffff;
+  color: white;
   clear: both;
   height: 480px;
   width: 960px;
@@ -114,7 +109,19 @@ body {
   margin: 0px;
   padding: 0px;
 }
+#banner p{
+font-family: "Times New Roman", Times, serif;
+font-size: 40px;
+position: absolute;
+right: 200px;
+bottom: 60px;
+
+
+}
+
 #content{
+height: auto;
+border: 1px solid #000000;
 }
 #infograph{
 }
@@ -149,8 +156,7 @@ display:inline;
 
 #logo {
 
-  background-color:white;
-  
+  background-color:white;  
   border:1px solid #000000;
   width: 363px;
   height: 70px;
@@ -170,6 +176,9 @@ display:inline;
 }
 #banner img {
   width: 100%;
+}
+#content h2{
+text-align: center;
 }
 #footer {
   width:960px;
