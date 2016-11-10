@@ -88,16 +88,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-ul {
-      margin: 0px;
-      padding: 0px;
-   }
-li{
-   display:inline;
-   }
+
+
 body {
        border:2px solid #000000;
-       margin: 5px;
+       margin:5px;
      }
     
 }
@@ -127,6 +122,7 @@ body {
 }
 
 #menu {
+  
   background-color:#000099;
   text-align: center;
   width: 941px;
@@ -135,6 +131,13 @@ body {
   border:5px solid #000000;
   border-color: black;
  
+}
+#menu ul{
+margin: 0px;
+      padding: 0px;
+}
+#menu li{
+display:inline;
 }
 #menu a {
   color: white;
@@ -169,6 +172,9 @@ body {
   color: white;
   background-color: #000099;
   clear: both;
+}
+#footer a{
+color:white;
 }
 
 
