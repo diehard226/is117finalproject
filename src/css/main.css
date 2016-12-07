@@ -88,7 +88,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-background-image: url("../img/wpbck.jpg");
+  background-color: #375958;
 }
 
 
@@ -105,7 +105,7 @@ background-image: url("../img/wpbck.jpg");
   clear: both;
   height: 480px;
   width: 960px;
-  background-image: url("../img/keyboard.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   position: relative;
@@ -164,7 +164,7 @@ background-image: url("../img/wpbck.jpg");
 
 #menu {
   font-family: Raleway;
-  background-color:#000099;
+  background-color:#3F6665;
   text-align: center;
   width: 638px;
   height: 70px;
@@ -186,7 +186,7 @@ display:inline;
 
 #logo {
 
-  background-color:white;  
+  background-color:#3F6665;  
   border:1px solid #000000;
   width: 318px;
   height: 70px;
@@ -198,6 +198,7 @@ display:inline;
 }
 #feature1, #feature2, #feature3 {
   font-family: "Slabo 27px";
+  background-color:#273F3F;
   color:white;
   border:1px solid #000000;
   float: left;
@@ -222,10 +223,11 @@ display:inline;
 #footer {
   font-family:Raleway;
   font-size:12px;
+  border:1px solid #000000;
   width:960px;
   text-align: center;
   color: white;
-  background-color: #000099;
+  background-color: #3F6665;
   clear: both;
 }
 #footer a{
