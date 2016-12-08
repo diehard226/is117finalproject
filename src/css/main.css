@@ -103,7 +103,7 @@ body{
   font-family: "Slabo 27px";
   color: white;
   clear: both;
-  height: 480px;
+  height: 530px;
   width: 960px;
   background-image: url("../img/banner.jpg");
   background-size: cover; 
@@ -178,7 +178,8 @@ body{
   padding: 0px;
 }
 #menu li{
-display:inline;
+  display:inline;
+  color:white;
 }
 #menu a {
   color: white;
