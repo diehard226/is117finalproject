@@ -91,14 +91,45 @@ body{
   background-color: #C0AFA7;
   margin-top: 0px;
 }
-
-
-
-#wrapper {
+h1,h2,h3,h4,h5,h6{
   
+}
+#wrapper {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+}
+#logo {
+  background-color:#807570;  
+  width: 318px;
+  height: 86px;
+  float: left;
+  margin-top: 0px;
+}
+#logo h1 {
+  padding: 0px;
+  margin: 0px;
+}
+#menu {
+  font-family: Raleway;
+  background-color:#807570;
+  text-align: right;
+  width: 611px;
+  height: 86px;
+  float: left;
+  padding-right: 31px;
+}
+#menu ul{
+  font-size:20px;
+  margin-top: 7px;
+  padding: 0px;
+}
+#menu li{
+  display:inline;
+  color:white;
+}
+#menu a {
+  color: white;
 }
 #banner {
   font-family: "Slabo 27px";
@@ -106,17 +137,15 @@ body{
   clear: both;
   height: 461px;
   width: 960px;
-  background-image: url("../img/bannerG.jpg");
+  background:linear-gradient(
+      rgba(25, 0, 0, 0.45), 
+      rgba(25, 0, 0, 0.45)
+    ), url("../img/bannerG.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   position: relative;
-  opacity:.8;
 }
-#banner img{
-  height: 461px;
-  width: 960px;
-  opacity: .5;
-}
+
 #banner h1 {
   margin: 0px;
   padding: 0px;
@@ -136,71 +165,28 @@ body{
   right: 31px;
 }
 
-#content{
-  height: auto;
-  background-color:white;
-  border: 1px solid #000000;
+#mainC{
+  background-color:#403B38;
+  width: 594px;
+  padding-left: 24px;
+  padding-right: 24px;
+  float: left;
+  font-size: 19px;
+  line-height: 28px;
+  font-family: "Slabo 27px";
+  color:white;
 }
-#ccontent{
-  text-align:center;
-  background-color:white;
-  border: 1px solid #000000;
-  height: 400px;
-}
-#acontent{
-  text-align:center;
-  background-color:white;
-  border: 1px solid #000000;
-  height: 400px;
-}
-#ccontent table{
-  margin: auto;
-  left: auto;
-  right: auto;
-} 
 
-#infograph{
-
+#sidebar {
+  width: 318px;
+  float: left;
+  color:white;
+  background-color:#A69891;
 }
 #header {
-  
   background-color:white;
   height: 70px;
   line-height: 70px;
-}
-
-#menu {
-  font-family: Raleway;
-  background-color:#807570;
-  text-align: right;
-  width: 611px;
-  height: 86px;
-  float: left;
-  border-color: black;
-  padding-right: 31px;
-  margin-top: 0px;
-}
-#menu ul{
-  font-size:20px;
-}
-#menu li{
-  display:inline;
-  color:white;
-}
-#menu a {
-  color: white;
-}
-
-#logo {
-  background-color:#807570;  
-  width: 318px;
-  height: 70px;
-  float: left;
-  margin-top: 0px;
-}
-#logo h1 {
-  padding: 0px;
-  margin: 0px;
 }
 #feature1, #feature2, #feature3 {
   font-family: "Slabo 27px";
@@ -211,21 +197,19 @@ body{
   width: 318px;
   height: 280px;
 }
-#feature1, #feature2, #feature3 p{
+#feature h2{
   text-align:center;
 }
-#feature1, #feature2, #feature3 h2{
-  text-align:center;
-}
-#feature3 a{
+#feature p{
    color:white;
    text-align: left;
 }
-
+#feature1, #feature2, #feature3  button{
+  text-align: right;
+}
 #banner img {
   width: 100%;
 }
-
 #footer {
   font-family:Raleway;
   font-size:12px;
@@ -245,7 +229,6 @@ body{
   margin: 0px;
   padding: 0px;
 }
-
 
 
 
