@@ -37,20 +37,25 @@
             </ul>
         </div> 
       </div> 
-      <div id="content">
-        <div id="sidebar">
-        <p> Fashion</p>
+      <div id=contact>
+       <p> Have any questions? Contact us by sending us a message.</p>
+       <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  	    <div class="row">
+    	    <label for="name">Your name:</label><br />
+	        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+     	  </div>
+        <div class="row">
+	        <label for="email">Your email:</label><br />
+	        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
         </div>
-        <div id="mainC">
-          <h1> Fashion </h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor arcu et risus tempor scelerisque. Morbi at felis at ex congue malesuada pharetra rutrum nunc. Duis viverra leo eget velit auctor consectetur. Sed eget egestas turpis. Aliquam interdum arcu et purus auctor, varius malesuada urna vulputate. Nullam at rutrum nibh. Vestibulum nec fermentum mauris, a elementum turpis. </p>
-          <p>Fusce vitae leo neque. Integer volutpat laoreet nunc sed sagittis. Ut turpis massa, interdum sollicitudin rhoncus sit amet, cursus eget arcu. Nunc ut facilisis nisi. Nulla porta posuere gravida. Fusce orci enim, condimentum et sagittis ut, aliquam quis turpis. Integer dignissim, urna a rutrum commodo, ligula velit rhoncus ligula, ut feugiat ex nisi eget ligula. Integer auctor facilisis dolor maximus pellentesque. Aliquam vitae ornare arcu. Vestibulum in tristique est, rutrum blandit lorem. Vivamus tempor erat vitae nunc pharetra, vitae eleifend est ultricies. Quisque aliquet, nibh ut convallis porta, ex dui ullamcorper mauris, quis sagittis leo mauris ut mi. Sed auctor, mi iaculis pharetra aliquam, libero libero feugiat mi, et vehicula est eros tincidunt nisl. Maecenas porttitor ex vel odio suscipit posuere. </p>
-          <p>Vivamus sapien dolor, volutpat vel pulvinar at, tempor in mauris. Integer molestie nisi ac tellus tincidunt, vel efficitur magna interdum. Maecenas faucibus turpis sit amet lorem vestibulum, eu congue ipsum fermentum. Nam ornare sem ut dui lacinia lacinia. Praesent enim enim, maximus id gravida eget, placerat viverra urna. Etiam id eros eu nisi malesuada feugiat. Fusce felis velit, posuere vel euismod sit amet, pellentesque at nulla. Suspendisse laoreet scelerisque euismod. Nullam fermentum, purus varius rutrum faucibus, sapien ipsum ullamcorper nisi, quis tempor elit sem quis neque. Vestibulum sed condimentum nisl. Suspendisse potenti. Fusce eget ante quis nisi vehicula pulvinar vel at mauris. Duis in posuere augue, consectetur maximus ex. Pellentesque varius facilisis lacus non pellentesque. Integer imperdiet magna in ipsum lobortis, ut congue risus venenatis. Maecenas eu ex venenatis, pretium metus quis, lobortis turpis. </p>
+        <div class="row">
+	        <label for="message">Your message:</label><br />
+	        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
         </div>
-
-      
-      </div>
-        <div id="footer">
+         <input id="submit_button" type="submit" value="Send email" />
+       </form>	
+      </div>	
+      <div id="footer">
         <p>Copyright &copy; AW93</p>
 
             <ul>
@@ -61,7 +66,7 @@
                <li><a href=#>About Us</a></li> 
             </ul>
       </div>
-    </div> 
+    </div>
         
         
         
@@ -82,6 +87,4 @@
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
-</html>
+   
